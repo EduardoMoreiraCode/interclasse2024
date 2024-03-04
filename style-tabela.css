@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*
+{
+    user-select: none;
+    /* Para não permitir seleção de texto */
+}
+
+body
+{
+    font-family: 'Poppins';
+}
+
+nav
+{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+
+#table1, #table2, #table
+{
+    width: 525px;
+    text-align: center;
+}
+
+#table th, /*para a tabela-futsal*/
+#table1 th,
+#table2 th
+{
+    border-top: 1px solid #dadec0;
+}
+
+#table td, /*para a tabela-futsal*/
+#table1 td,
+#table2 td
+{
+    text-align: center;
+}
+
+.classificados
+{
+    background-color: blue;
+}
+
+.repescagem
+{
+    background-color: orange;
+}
+
+.eliminados
+{
+    background-color: red;
+}
+
+img
+{
+    margin-right: 5px;
+}
+
+.details
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* p ficar espacaado a legenda entre listras e vitoria, empate derrota */
+.border 
+{
+    margin-right: 100px;
+}
+
+/* Guia de Rotação */
+.rotationGuide
+{
+    /* DISPLAY está definido em rotate.js */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 30px; /*quando o aviso some tudo isso some*/
+}
+
+.rotationGuide svg
+{
+    vertical-align: middle;
+}
+
+/* Midias */
+@media (max-width:600px)
+{
+    /* classe .sumir, para quando a midia for menor "apagar" da tabela (PJ, VIT, DER, E, GF, GS, SG) */
+    .sumir
+    {
+        display: none;
+    }
+
+    #table, #table1, #table2 /*id da tabela da fase de grupos somente*/
+    {
+        width: 350px;
+    }
+
+    /* quanto ao .rotationGuide
+    o display está definido em rotate.js */
+
+}
+
+@media (max-width:380px)
+{
+    #table, #table1, #table2
+    {
+        width: 320px;
+    }
+}
