@@ -25,16 +25,23 @@ nav
     text-align: center;
 }
 
+#artilheiro-table
+{
+    width: 300px;
+}
+
 #table th, /*para a tabela-futsal*/
 #table1 th,
-#table2 th
+#table2 th,
+#artilheiro-table th
 {
     border-top: 1px solid #dadec0;
 }
 
 #table td, /*para a tabela-futsal*/
 #table1 td,
-#table2 td
+#table2 td,
+#artilheiro-table td
 {
     text-align: center;
 }
@@ -102,6 +109,11 @@ img
         width: 350px;
     }
 
+    #artilheiro-table
+    {
+        width: 300px;
+    }
+
     /* quanto ao .rotationGuide
     o display está definido em rotate.js */
 
@@ -112,5 +124,10 @@ img
     #table, #table1, #table2
     {
         width: 320px;
+    }
+
+    #artilheiro-table
+    {
+        width: 300px;
     }
 }
