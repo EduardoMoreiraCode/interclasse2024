@@ -19,6 +19,11 @@ nav
     justify-content:center;
 }
 
+.topic
+{
+    font-size: 20px;
+}
+
 #table1, #table2, #table
 {
     width: 525px;
@@ -70,6 +75,7 @@ img
 {
     display: flex;
     justify-content: center;
+    margin-bottom: 90px;
 }
 
 /* p ficar espacaado a legenda entre listras e vitoria, empate derrota */
