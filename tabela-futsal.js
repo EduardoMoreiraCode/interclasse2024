@@ -3,7 +3,9 @@
 // rank automático
 // pontos automáticos
 // saldo de gols automático
-
+function alertOnLoad() {
+    alert("Nenhum jogo ocorrendo no momento!");
+}
 const times = [
     {
         cor: "",
