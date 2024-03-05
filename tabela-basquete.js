@@ -3,8 +3,9 @@
 // rank automático
 // saldo de pontos automático
 
-
-alert("Nenhum jogo ocorrendo no momento!");
+function alertOnLoad() {
+    alert("Nenhum jogo ocorrendo no momento!");
+}
 
 //IMPORTANTE! tabela 1
 const times1 = [
