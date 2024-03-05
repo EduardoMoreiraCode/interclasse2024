@@ -4,7 +4,7 @@
 // pontos automáticos
 // saldo de gols automático
 
-alert("Nenhum jogo ocorrendo no momento!");
+
 
 const times = [
     {
@@ -242,7 +242,7 @@ for (const time of timesOrd) {
     }
 }
 
-
+alert("Nenhum jogo ocorrendo no momento!");
 
 // PROJETO FASE DE GRUPOS 2024
 // AS TABELAS SERÃO FEITAS COM OBJETOS EM JS
