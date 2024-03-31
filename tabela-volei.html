@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style-tabela.css">
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <link href="./assets/ctig-logo.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="./assets/ctig-logo.png" rel="apple-touch-icon" />
+    <title>Tabela Volei 2024</title>
+</head>
+<body onload="alertOnLoad()">
+    <nav>
+        <h2 class="topic">Classificação Geral</h2>
+        
+        <table id="table">
+            <thead>
+                <tr>
+                    <th class="tabela-colunas-bordas"></th>
+                    <th colspan="3">Time</th>
+                    <th title="Pontos">Pts</th>
+                    <th title="Partidas Jogadas" class="sumir">PJ</th>
+                    <th title="Vitórias" class="sumir">VIT</th>
+                    <th title="Derrotas" class="sumir">DER</th>
+                    <th title="Sets a Favor" class="sumir">SF</th>
+                    <th title="Sets Contra" class="sumir">SC</th>
+                    <th title="Saldo de Sets">SS</th>
+                    <th title="Pontos Feitos" class="sumir">PF</th>
+                    <th title="Pontos Sofridos" class="sumir">PC</th>
+                    <th title="Saldo de Pontos">SP</th>
+                    <th>Últimas 5</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+            
+        </table>
+        <br><br>
+        <section>
+            <div id="rotateText" class="rotationGuide">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M9 1H3a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h6a2 
+                    2 0 0 0 2-2V3a2 2 0 0 0-2-2m0 14H3V3h6zm12-2h-8v2h8v6H9v-1H6v1a2 
+                    2 0 0 0 2 2h13a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2m2-3l-4-2l1.91-.91A7.516 
+                    7.516 0 0 0 14 2.5V1a9 9 0 0 1 9 9"/>
+                </svg>
+                Vire o celular horizontalmente para ver a tabela completa.
+            </div>
+        </section>
+        <!-- <br>
+        <h2 class="topic">Artilheiro</h2>
+        <table id="artilheiro-table">
+            <thead>
+                <tr>
+                    <th class="tabela-colunas-bordas"></th>
+                    <th colspan="3">Jogador</th>
+                    <th title="Time">Time</th>
+                    <th title="Gols">Gols</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+            
+        </table> -->
+        <br> <br>
+        <div class="details">
+            <table class="border">
+                <!-- classe border para espaçar a legenda -->
+                <tr>
+                    <td class="classificados"></td>
+                    <td>Classificados</td>
+                </tr>
+                <br>
+                <tr>
+                    <td class="repescagem"></td>
+                    <td>Repescagem</td>
+                </tr>
+                <br>
+                <tr>
+                    <td class="eliminados"></td>
+                    <td>Rebaixados</td>
+                </tr>
+                <br>
+            </table>
+            
+        <table>
+            <tr>
+                <td><img src="./assets/vitoria.svg" alt="vitoria"></td>
+                <td>Vitória</td>
+            </tr>
+            <tr>
+                <td><img src="./assets/empate.svg" alt="empate"></td>
+                <td>Empate</td>
+            </tr>
+            <tr>
+                <td><img src="./assets/derrota.svg" alt="derrota"></td>
+                <td>Derrota</td>
+            </tr>
+        </table>
+        <br>
+
+        
+    </nav>
+        
+
+    <script src="tabela-volei.js"></script>
+    <script src="rotate.js"></script>
+    <!-- <script src="serverteste.js"></script> -->
+</body>
+</html>
