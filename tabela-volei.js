@@ -22,10 +22,10 @@ const times = [
         ptsSofridos: 290,
         saldoPts: '',
         ultimos: [
-            "./assets/empate.svg",
+            "./assets/derrota.svg",
             "./assets/vitoria.svg",
             "./assets/vitoria.svg",
-            "./assets/empate.svg",
+            "./assets/derrota.svg",
             "./assets/vitoria.svg"
         ],
     },
@@ -111,10 +111,10 @@ const times = [
         saldoPts: '',
         ultimos: [
             "./assets/derrota.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/vitoria.svg",
+            "./assets/vitoria.svg",
+            "./assets/vitoria.svg",
+            "./assets/vitoria.svg"
         ],
     },
     {
@@ -135,7 +135,7 @@ const times = [
             "./assets/vitoria.svg",
             "./assets/derrota.svg",
             "./assets/vitoria.svg",
-            "./assets/empate.svg",
+            "./assets/derrota.svg",
             "./assets/derrota.svg"
         ],
     },
@@ -155,18 +155,18 @@ const timesOrd = times.sort((a, b) => { //ORDENACAO POR PONTOS
     //b = segundo objeto para comparar
     if (ptsA === ptsB) //se os pontos forem iguais
     {
-        const saldoPtsA = a.ptsFeitos - a.ptsSofridos;
-        const saldoPtsB = b.ptsFeitos - b.ptsSofridos;
-
-        if (saldoPtsA === saldoPtsB) //se os saldos forem iguais
+        const saldoSetsA = a.setsFavor - a.setsContra;
+        const saldoSetsB = b.setsFavor - b.setsContra;
+        
+        if (saldoSetsA === saldoSetsB) //se os saldos forem iguais
         {
-            const saldoSetsA = a.setsFavor - a.setsContra;
-            const saldoSetsB = b.setsFavor - b.setsContra;
+            const saldoPtsA = a.ptsFeitos - a.ptsSofridos;
+            const saldoPtsB = b.ptsFeitos - b.ptsSofridos;
 
-            return saldoSetsB - saldoSetsA;
+            return saldoPtsB - saldoPtsA;
         }
         else {
-            return saldoPtsB - saldoPtsA; //ordena pelo saldo de gols
+            return saldoSetsB - saldoSetsA; //ordena pelo saldo de sets
         }
     }
     else {
