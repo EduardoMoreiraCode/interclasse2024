@@ -22,6 +22,7 @@ nav
 .topic
 {
     font-size: 20px;
+    text-align: center;
 }
 
 #table1, #table2, #table
@@ -30,15 +31,16 @@ nav
     text-align: center;
 }
 
-#artilheiro-table
+#artilheiro-table, #goleiro-table
 {
-    width: 300px;
+    width: 320px; /* IMPORTANTE! */
 }
 
 #table th, /*para a tabela-futsal*/
 #table1 th,
 #table2 th,
-#artilheiro-table th
+#artilheiro-table th,
+#goleiro-table th
 {
     border-top: 1px solid #dadec0;
 }
@@ -46,9 +48,17 @@ nav
 #table td, /*para a tabela-futsal*/
 #table1 td,
 #table2 td,
-#artilheiro-table td
+#artilheiro-table td,
+#goleiro-table td
 {
     text-align: center;
+}
+
+/* TESTING... */
+.tabela-colunas-bordas
+{
+    width: 0.25px;
+    border-radius: 0.005px;
 }
 
 .classificados
@@ -115,7 +125,7 @@ img
         width: 350px;
     }
 
-    #artilheiro-table
+    #artilheiro-table, #goleiro-table
     {
         width: 300px;
     }
@@ -130,10 +140,26 @@ img
     #table, #table1, #table2
     {
         width: 320px;
+        font-size: 14px;
+        /* IMPORTANTE! */
     }
 
-    #artilheiro-table
+    #artilheiro-table, #goleiro-table
     {
         width: 300px;
+        font-size: 14px;
+        /* IMPORTANTE! */
+    }
+
+    .rotationGuide
+    {
+        font-size: 22px;
+        /* IMPORTANTE! */
+    }
+
+    .details
+    {
+        font-size: 14px;
+        /* IMPORTANTE! */
     }
 }
