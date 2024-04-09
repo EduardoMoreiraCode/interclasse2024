@@ -128,6 +128,7 @@ img
     #artilheiro-table, #goleiro-table
     {
         width: 350px;
+        /* IMPORTANTE! */
     }
 
     /* quanto ao .rotationGuide

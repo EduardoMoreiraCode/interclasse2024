@@ -16,7 +16,7 @@ const times = [
         vitorias: 3,
         empates: 4,
         derrotas: 3,
-        golsFeitos: 13,
+        golsFeitos: 12,
         golsSofridos: 14,
         saldoGols: '',
         ultimos: [
