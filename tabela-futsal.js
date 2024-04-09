@@ -10,7 +10,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "Eletro da Gama",
+        nome: "NGA Eletro",
         pontos: '',
         jogos: 10,
         vitorias: 3,
