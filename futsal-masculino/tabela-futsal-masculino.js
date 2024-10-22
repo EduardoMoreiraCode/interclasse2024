@@ -20,11 +20,11 @@ const times = [
         golsSofridos: 14,
         saldoGols: '',
         ultimos: [
-            "./assets/empate.svg",
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/empate.svg",
-            "./assets/vitoria.svg"
+            "../assets/empate.svg",
+            "../assets/vitoria.svg",
+            "../assets/vitoria.svg",
+            "../assets/empate.svg",
+            "../assets/vitoria.svg"
         ],
     },
     {
@@ -40,11 +40,11 @@ const times = [
         golsSofridos: 6,
         saldoGols: '',
         ultimos: [
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/derrota.svg",
-            "./assets/derrota.svg"
+            "../assets/vitoria.svg",
+            "../assets/vitoria.svg",
+            "../assets/vitoria.svg",
+            "../assets/derrota.svg",
+            "../assets/derrota.svg"
         ],
     },
     {
@@ -60,11 +60,11 @@ const times = [
         golsSofridos: 8,
         saldoGols: '',
         ultimos: [
-            "./assets/derrota.svg",
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg"
+            "../assets/derrota.svg",
+            "../assets/vitoria.svg",
+            "../assets/vitoria.svg",
+            "../assets/vitoria.svg",
+            "../assets/vitoria.svg"
         ],
     },
     {
@@ -80,11 +80,11 @@ const times = [
         golsSofridos: 12,
         saldoGols: '',
         ultimos: [
-            "./assets/derrota.svg",
-            "./assets/vitoria.svg",
-            "./assets/derrota.svg",
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg"
+            "../assets/derrota.svg",
+            "../assets/vitoria.svg",
+            "../assets/derrota.svg",
+            "../assets/vitoria.svg",
+            "../assets/vitoria.svg"
         ],
     },
     {
@@ -100,11 +100,11 @@ const times = [
         golsSofridos: 10,
         saldoGols: '',
         ultimos: [
-            "./assets/derrota.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "../assets/derrota.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
         ],
     },
     {
@@ -120,11 +120,11 @@ const times = [
         golsSofridos: 9,
         saldoGols: '',
         ultimos: [
-            "./assets/vitoria.svg",
-            "./assets/derrota.svg",
-            "./assets/vitoria.svg",
-            "./assets/empate.svg",
-            "./assets/derrota.svg"
+            "../assets/vitoria.svg",
+            "../assets/derrota.svg",
+            "../assets/vitoria.svg",
+            "../assets/empate.svg",
+            "../assets/derrota.svg"
         ],
     },
 ];
