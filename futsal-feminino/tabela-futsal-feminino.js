@@ -10,6 +10,7 @@ const times = [
     {
         cor: "",
         rank: '',
+        logo: "../assets/aut-logo.png",
         nome: "Automação",
         pontos: '',
         jogos: 0,
@@ -23,13 +24,12 @@ const times = [
             "../assets/empate.svg",
             "../assets/empate.svg",
             "../assets/empate.svg",
-            "../assets/empate.svg",
-            "../assets/empate.svg"
         ],
     },
     {
         cor: "",
         rank: '',
+        logo: "../assets/eletro-logo.png",
         nome: "Eletroeletrônica",
         pontos: '',
         jogos: 0,
@@ -43,13 +43,12 @@ const times = [
             "../assets/empate.svg",
             "../assets/empate.svg",
             "../assets/empate.svg",
-            "../assets/empate.svg",
-            "../assets/empate.svg"
         ],
     },
     {
         cor: "",
         rank: '',
+        logo: "../assets/eletronica-logo.png",
         nome: "Eletrônica",
         pontos: '',
         jogos: 0,
@@ -63,13 +62,12 @@ const times = [
             "../assets/empate.svg",
             "../assets/empate.svg",
             "../assets/empate.svg",
-            "../assets/empate.svg",
-            "../assets/empate.svg"
         ],
     },
     {
         cor: "",
         rank: '',
+        logo: "../assets/mec-logo.png",
         nome: "Mecânica",
         pontos: '',
         jogos: 0,
@@ -83,8 +81,6 @@ const times = [
             "../assets/empate.svg",
             "../assets/empate.svg",
             "../assets/empate.svg",
-            "../assets/empate.svg",
-            "../assets/empate.svg"
         ],
     },
 ];
@@ -139,8 +135,16 @@ for (const time of timesOrd) {
         const novaCell = novaLinha.insertCell();
         // novaCell.textContent = time[prop];
         // para não aparecer o path da imagem
-
-        if (prop === 'ultimos') { //se a prop for essa
+        
+        if(prop === 'logo') { // IMPORTANTE!
+            const logoImg = document.createElement('img');
+            logoImg.src = time[prop];
+            logoImg.alt = `${time.nome}`;
+            logoImg.style.width = '25px';
+            logoImg.style.marginTop = '5px';
+            novaCell.appendChild(logoImg);
+        }
+        else if (prop === 'ultimos') { //se a prop for essa
 
             const imagens = time[prop];
             for (const imgPath of imagens) {
@@ -154,14 +158,15 @@ for (const time of timesOrd) {
             const SG = time.golsFeitos - time.golsSofridos; //SG é golsFeitos - golsSofridos
             novaCell.textContent = SG;
         }
-
+        
         // add classe para sumir qdo for midia menor
         else if (
             prop === 'vitorias' ||
             prop === 'empates' ||
             prop === 'derrotas' ||
             prop === 'golsFeitos' ||
-            prop === 'golsSofridos'
+            prop === 'golsSofridos' ||
+            prop === 'jogos'
         ) {
             novaCell.textContent = time[prop]; //garantir q seja preenchida na tab antes de
             novaCell.classList.add("sumir"); //colocar a classe .sumir
@@ -193,7 +198,7 @@ for (const time of timesOrd) {
 
         else if (prop === 'nome') {
             novaCell.textContent = time[prop]; //garantir a exibição
-            novaCell.colSpan = 2; //é 2 pois add a prop rank
+            novaCell.colSpan = 1; //é 2 pois add a prop rank
             //q divide o espaço com o nome do time
         }
         else { //se não atender nenhuma das condições
