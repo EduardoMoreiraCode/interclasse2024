@@ -10,97 +10,17 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "NGA Eletro",
+        nome: "DG",
         pontos: '',
-        jogos: 10,
-        vitorias: 3,
-        empates: 4,
-        derrotas: 3,
-        golsFeitos: 12,
-        golsSofridos: 14,
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
         saldoGols: '',
         ultimos: [
             "../assets/empate.svg",
-            "../assets/vitoria.svg",
-            "../assets/vitoria.svg",
-            "../assets/empate.svg",
-            "../assets/vitoria.svg"
-        ],
-    },
-    {
-        cor: "",
-        rank: '',
-        nome: "Saadicos",
-        pontos: '',
-        jogos: 10,
-        vitorias: 6,
-        empates: 2,
-        derrotas: 2,
-        golsFeitos: 15,
-        golsSofridos: 6,
-        saldoGols: '',
-        ultimos: [
-            "../assets/vitoria.svg",
-            "../assets/vitoria.svg",
-            "../assets/vitoria.svg",
-            "../assets/derrota.svg",
-            "../assets/derrota.svg"
-        ],
-    },
-    {
-        cor: "",
-        rank: '',
-        nome: "Javax",
-        pontos: '',
-        jogos: 10,
-        vitorias: 5,
-        empates: 4,
-        derrotas: 1,
-        golsFeitos: 17,
-        golsSofridos: 8,
-        saldoGols: '',
-        ultimos: [
-            "../assets/derrota.svg",
-            "../assets/vitoria.svg",
-            "../assets/vitoria.svg",
-            "../assets/vitoria.svg",
-            "../assets/vitoria.svg"
-        ],
-    },
-    {
-        cor: "",
-        rank: '',
-        nome: "Mec da Gama",
-        pontos: '',
-        jogos: 10,
-        vitorias: 3,
-        empates: 5,
-        derrotas: 2,
-        golsFeitos: 13,
-        golsSofridos: 12,
-        saldoGols: '',
-        ultimos: [
-            "../assets/derrota.svg",
-            "../assets/vitoria.svg",
-            "../assets/derrota.svg",
-            "../assets/vitoria.svg",
-            "../assets/vitoria.svg"
-        ],
-    },
-    {
-        cor: "",
-        rank: '',
-        nome: "Broca Juniors",
-        pontos: '',
-        jogos: 10,
-        vitorias: 4,
-        empates: 2,
-        derrotas: 4,
-        golsFeitos: 20,
-        golsSofridos: 10,
-        saldoGols: '',
-        ultimos: [
-            "../assets/derrota.svg",
             "../assets/empate.svg",
             "../assets/empate.svg",
             "../assets/empate.svg",
@@ -110,21 +30,192 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "É os D",
+        nome: "Time 2",
         pontos: '',
-        jogos: 10,
-        vitorias: 3,
-        empates: 5,
-        derrotas: 2,
-        golsFeitos: 15,
-        golsSofridos: 9,
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
         saldoGols: '',
         ultimos: [
-            "../assets/vitoria.svg",
-            "../assets/derrota.svg",
-            "../assets/vitoria.svg",
             "../assets/empate.svg",
-            "../assets/derrota.svg"
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 3",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 4",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 5",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 6",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 7",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 8",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 9",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 10",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
+        ],
+    },{
+        cor: "",
+        rank: '',
+        nome: "Time 11",
+        pontos: '',
+        jogos: 0,
+        vitorias: 0,
+        empates: 0,
+        derrotas: 0,
+        golsFeitos: 0,
+        golsSofridos: 0,
+        saldoGols: '',
+        ultimos: [
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg",
+            "../assets/empate.svg"
         ],
     },
 ];
@@ -143,21 +234,22 @@ const timesOrd = times.sort((a, b) => { //ORDENACAO POR PONTOS
     //b = segundo objeto para comparar
     if (ptsA === ptsB) //se os pontos forem iguais
     {
-        const saldoGolsA = a.golsFeitos - a.golsSofridos;
-        const saldoGolsB = b.golsFeitos - b.golsSofridos;
 
-        if (saldoGolsA === saldoGolsB) //se os saldos forem iguais
-        {//faz quem tem mais vitorias
-            if (a.vitorias === b.vitorias) //se vitorias forem iguais
+        if (a.vitorias === b.vitorias) //se as vitorias forem iguais
+        {//faz quem tem mais gols
+            const saldoGolsA = a.golsFeitos - a.golsSofridos;
+            const saldoGolsB = b.golsFeitos - b.golsSofridos;
+
+            if(saldoGolsA === saldoGolsB)
             {
-                return b.empates - a.empates; //quem tiver mais empate, tera menos derrotas
+                b.empates - a.empates;
             }
             else {
-                return b.vitorias - a.vitorias; //caso não, ordena por vitorias
+                return saldoGolsB - saldoGolsA;
             }
         }
         else {
-            return saldoGolsB - saldoGolsA; //ordena pelo saldo de gols
+            return b.vitorias - a.vitorias; //ordena pelo saldo de gols
         }
     }
     else {
@@ -209,11 +301,11 @@ for (const time of timesOrd) {
 
         else if (prop === 'cor') //adiciona classes
         {
-            if ((novaLinha.rowIndex <= 3)) //menor igual a 1 ou seja só o primeiro objeto
+            if ((novaLinha.rowIndex <= 6)) //menor igual a 1 ou seja só o primeiro objeto
             {
                 novaCell.classList.add("classificados");
             }
-            else if ((novaLinha.rowIndex > 3) && (novaLinha.rowIndex < 6)) //maior q 3
+            else if ((novaLinha.rowIndex > 6) && (novaLinha.rowIndex < 9)) //maior q 3
             //e menor que 4, ou seja, so o quarto colocado
             {
                 novaCell.classList.add("repescagem");

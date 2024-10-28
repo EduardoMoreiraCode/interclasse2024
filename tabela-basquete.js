@@ -12,7 +12,7 @@ const times1 = [
     {
         cor: "",
         rank: '',
-        nome: "Floaters",
+        nome: "Time 1",
         jogos: 10,
         vitorias: 8,
         derrotas: 2,
@@ -31,7 +31,7 @@ const times1 = [
     {
         cor: "",
         rank: '',
-        nome: "Celtics",
+        nome: "Time 2",
         jogos: 10,
         vitorias: 8,
         derrotas: 2,
@@ -50,7 +50,7 @@ const times1 = [
     {
         cor: "",
         rank: '',
-        nome: "Javax",
+        nome: "Time 3",
         jogos: 10,
         vitorias: 6,
         derrotas: 4,
@@ -69,7 +69,7 @@ const times1 = [
     {
         cor: "",
         rank: '',
-        nome: "Bulls",
+        nome: "Time 4",
         jogos: 10,
         vitorias: 1,
         derrotas: 9,
@@ -88,7 +88,7 @@ const times1 = [
     {
         cor: "",
         rank: '',
-        nome: "Hornets",
+        nome: "Time 5",
         jogos: 10,
         vitorias: 5,
         derrotas: 5,
@@ -102,25 +102,6 @@ const times1 = [
             "./assets/vitoria.svg",
             "./assets/vitoria.svg",
             "./assets/vitoria.svg"
-        ],
-    },
-    {
-        cor: "",
-        rank: '',
-        nome: "Wizards",
-        jogos: 10,
-        vitorias: 3,
-        derrotas: 7,
-        vitPercentual: '',
-        ptsFeitos: 13,
-        ptsSofridos: 34,
-        saldoPts: '',
-        ultimos: [
-            "./assets/vitoria.svg",
-            "./assets/derrota.svg",
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/derrota.svg"
         ],
     },
 ];
@@ -241,7 +222,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Lakers",
+        nome: "Time 1",
         jogos: 10,
         vitorias: 6,
         derrotas: 4,
@@ -260,7 +241,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Suns",
+        nome: "Time 2",
         jogos: 10,
         vitorias: 5,
         derrotas: 5,
@@ -279,7 +260,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Mavericks",
+        nome: "Time 3",
         jogos: 10,
         vitorias: 7,
         derrotas: 3,
@@ -298,7 +279,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Corinthians",
+        nome: "Time 4",
         jogos: 10,
         vitorias: 8,
         derrotas: 2,
@@ -317,7 +298,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Warriors",
+        nome: "Time 5",
         jogos: 10,
         vitorias: 6,
         derrotas: 4,
@@ -331,25 +312,6 @@ const times2 = [
             "./assets/vitoria.svg",
             "./assets/vitoria.svg",
             "./assets/vitoria.svg"
-        ],
-    },
-    {
-        cor: "",
-        rank: '',
-        nome: "Grizzlies",
-        jogos: 10,
-        vitorias: 4,
-        derrotas: 6,
-        vitPercentual: '',
-        ptsFeitos: 62,
-        ptsSofridos: 70,
-        saldoPts: '',
-        ultimos: [
-            "./assets/vitoria.svg",
-            "./assets/derrota.svg",
-            "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/derrota.svg"
         ],
     },
 ];
