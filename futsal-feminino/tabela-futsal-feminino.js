@@ -3,9 +3,6 @@
 // rank automático
 // pontos automáticos
 // saldo de gols automático
-function alertOnLoad() {
-    alert("Nenhum jogo ocorrendo no momento!");
-}
 const times = [
     {
         cor: "",
@@ -178,11 +175,11 @@ for (const time of timesOrd) {
             {
                 novaCell.classList.add("classificados");
             }
-            else if ((novaLinha.rowIndex > 2) && (novaLinha.rowIndex < 6)) //maior q 3
-            //e menor que 4, ou seja, so o quarto colocado
-            {
-                novaCell.classList.add("repescagem");
-            }
+            // else if ((novaLinha.rowIndex > 2) && (novaLinha.rowIndex < 6)) //maior q 3
+            // //e menor que 4, ou seja, so o quarto colocado
+            // {
+            //     novaCell.classList.add("repescagem");
+            // }
             else //restante
             {
                 novaCell.classList.add("eliminados");

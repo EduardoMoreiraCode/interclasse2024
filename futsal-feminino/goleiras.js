@@ -3,22 +3,22 @@ const goleiros = [
         cor: '',
         rank: '',
         nome: 'Goleira 1',
-        time: 'Automação',
-        defesas: 21
+        time: 'Time',
+        defesas: 0
     },
     {
         cor: '',
         rank: '',
         nome: 'Goleira 2',
-        time: 'Eletroeletrônica',
-        defesas: 19
+        time: 'Time',
+        defesas: 0
     },
     {
         cor: '',
         rank: '',
         nome: 'Goleira 3',
-        time: 'Mecânica',
-        defesas: 15
+        time: 'Time',
+        defesas: 0
     },
 ];
 
