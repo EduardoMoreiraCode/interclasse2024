@@ -25,7 +25,7 @@ const times1 = [
     {
         cor: "",
         rank: '',
-        nome: "Time 2",
+        nome: "BD7",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -42,7 +42,7 @@ const times1 = [
     },{
         cor: "",
         rank: '',
-        nome: "Time 3",
+        nome: "É os D pt. 2",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -59,7 +59,7 @@ const times1 = [
     },{
         cor: "",
         rank: '',
-        nome: "Time 4",
+        nome: "NGA FC",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -76,7 +76,7 @@ const times1 = [
     },{
         cor: "",
         rank: '',
-        nome: "Time 5",
+        nome: "Computaria",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -93,7 +93,7 @@ const times1 = [
     },{
         cor: "",
         rank: '',
-        nome: "Time 6",
+        nome: "West Ohm",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -249,7 +249,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Time 7",
+        nome: "Pretônicos",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -266,7 +266,7 @@ const times2 = [
     },{
         cor: "",
         rank: '',
-        nome: "Time 8",
+        nome: "",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -283,7 +283,7 @@ const times2 = [
     },{
         cor: "",
         rank: '',
-        nome: "Time 9",
+        nome: "MecSteel",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -300,7 +300,7 @@ const times2 = [
     },{
         cor: "",
         rank: '',
-        nome: "Time 10",
+        nome: "Tikaplaus FC",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -317,7 +317,7 @@ const times2 = [
     },{
         cor: "",
         rank: '',
-        nome: "Time 11",
+        nome: "Mec Bull Graxantino",
         pontos: '',
         jogos: 0,
         vitorias: 0,

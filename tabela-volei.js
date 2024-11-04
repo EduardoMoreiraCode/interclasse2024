@@ -7,7 +7,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "Time 1",
+        nome: "É os D pt. 2",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -29,7 +29,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "Time 2",
+        nome: "West Ohm",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -51,7 +51,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "Time 3",
+        nome: "MecSteel",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -73,7 +73,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "Time 4",
+        nome: "DG",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -95,7 +95,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "Time 5",
+        nome: "Computaria",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -117,7 +117,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "Time 6",
+        nome: "Blockers",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -258,7 +258,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Time 7",
+        nome: "Açaí",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -280,7 +280,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Time 8",
+        nome: "Mec Bull Graxantino",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -302,7 +302,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Time 9",
+        nome: "NGA Vôlei",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -324,7 +324,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Time 10",
+        nome: "Javentus",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -346,7 +346,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Time 11",
+        nome: "Floaters",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -368,7 +368,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Time 12",
+        nome: "Tikaplaus VC",
         pontos: '',
         jogos: 0,
         vitorias: 0,

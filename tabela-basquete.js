@@ -181,15 +181,15 @@ for (const time of timesOrd) {
 
         else if (prop === 'cor') //adiciona classes
         {
-            if ((novaLinha.rowIndex <= 3)) //menor igual a 1 ou seja só o primeiro objeto
+            if ((novaLinha.rowIndex <= 4)) //menor igual a 1 ou seja só o primeiro objeto
             {
                 novaCell.classList.add("classificados");
             }
-            else if ((novaLinha.rowIndex > 3) && (novaLinha.rowIndex < 6)) //maior q 3
-            //e menor que 4, ou seja, so o quarto colocado
-            {
-                novaCell.classList.add("repescagem");
-            }
+            // else if ((novaLinha.rowIndex > 3) && (novaLinha.rowIndex < 6)) //maior q 3
+            // //e menor que 4, ou seja, so o quarto colocado
+            // {
+            //     novaCell.classList.add("repescagem");
+            // }
             else //restante
             {
                 novaCell.classList.add("eliminados");
@@ -391,15 +391,15 @@ for (const time of timesOrd2) {
 
         else if (prop === 'cor') //adiciona classes
         {
-            if ((novaLinha.rowIndex <= 3)) //menor igual a 1 ou seja só o primeiro objeto
+            if ((novaLinha.rowIndex <= 4)) //menor igual a 1 ou seja só o primeiro objeto
             {
                 novaCell.classList.add("classificados");
             }
-            else if ((novaLinha.rowIndex > 3) && (novaLinha.rowIndex < 6)) //maior q 3
-            //e menor que 4, ou seja, so o quarto colocado
-            {
-                novaCell.classList.add("repescagem");
-            }
+            // else if ((novaLinha.rowIndex > 3) && (novaLinha.rowIndex < 6)) //maior q 3
+            // //e menor que 4, ou seja, so o quarto colocado
+            // {
+            //     novaCell.classList.add("repescagem");
+            // }
             else //restante
             {
                 novaCell.classList.add("eliminados");

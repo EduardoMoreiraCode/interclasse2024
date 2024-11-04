@@ -57,7 +57,18 @@
     border: 2px solid #000;
     padding: 10px;
     margin: 10px;
-    width: 600px;
+    width: 700px;
+    position: relative;
+}
+
+.Qmatch {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
     position: relative;
 }
 
@@ -153,7 +164,7 @@ ul li img
 {
     .match
     {
-        width: 300px;
+        width: 350px;
     }
 
     .legenda-container
