@@ -27,7 +27,7 @@ const times = [
         cor: "",
         rank: '',
         logo: "../assets/eletro-logo.png",
-        nome: "TG (Team Girls)",
+        nome: "Eletro Girls",
         pontos: '',
         jogos: 0,
         vitorias: 0,

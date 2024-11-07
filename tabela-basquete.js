@@ -47,7 +47,7 @@ const times1 = [
     {
         cor: "",
         rank: '',
-        nome: "1B",
+        nome: "TikaPlaus",
         jogos: 1,
         vitorias: 0,
         derrotas: 0,
@@ -281,7 +281,7 @@ const times2 = [
         vitorias: 0,
         derrotas: 0,
         vitPercentual: '',
-        ptsFeitos: 10,
+        ptsFeitos: 0,
         ptsSofridos: 0,
         saldoPts: '',
         ultimos: [

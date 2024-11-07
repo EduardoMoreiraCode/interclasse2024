@@ -266,7 +266,7 @@ const times2 = [
     },{
         cor: "",
         rank: '',
-        nome: "",
+        nome: "Javentus",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -300,7 +300,7 @@ const times2 = [
     },{
         cor: "",
         rank: '',
-        nome: "Tikaplaus FC",
+        nome: "Tikaplaus",
         pontos: '',
         jogos: 0,
         vitorias: 0,

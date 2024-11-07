@@ -7,7 +7,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "É os D pt. 2",
+        nome: "Milantrônicas",
         pontos: '',
         jogos: 0,
         vitorias: 0,
@@ -368,7 +368,7 @@ const times2 = [
     {
         cor: "",
         rank: '',
-        nome: "Tikaplaus VC",
+        nome: "Tikaplaus",
         pontos: '',
         jogos: 0,
         vitorias: 0,
