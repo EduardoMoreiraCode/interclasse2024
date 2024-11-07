@@ -7,7 +7,7 @@ const times = [
     {
         cor: "",
         rank: '',
-        nome: "Milantrônicas",
+        nome: "Milantrônica",
         pontos: '',
         jogos: 0,
         vitorias: 0,
