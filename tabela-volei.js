@@ -495,7 +495,6 @@ for (const time of timesOrd2) {
         else if (prop === 'nome') {
             novaCell.textContent = time[prop]; //garantir a exibição
             novaCell.colSpan = 2; //é 2 pois add a prop rank
-            //q divide o espaço com o nome do time
         }
         else { //se não atender nenhuma das condições
             novaCell.textContent = time[prop];
