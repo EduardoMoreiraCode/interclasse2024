@@ -2,7 +2,7 @@ const jogadores = [
     {
         cor: '',
         rank: '',
-        nome: 'Jogadora 1',
+        nome: 'Jogadora aí',
         time: 'Time',
         golsFeitos: 0,
         assist: 0,
@@ -35,7 +35,16 @@ const jogadoresOrd = jogadores.sort((a, b) => {
     const golsA = a.golsFeitos;
     const golsB = b.golsFeitos;
 
-    return golsB - golsA;
+    if(golsA === golsB)
+    {
+        const assistA = a.assist;
+        const assistB = b.assist;
+
+        return assistB - assistA;
+    }
+    else{
+        return golsB - golsA;
+    }
 });
 
 let posTable = 1;
