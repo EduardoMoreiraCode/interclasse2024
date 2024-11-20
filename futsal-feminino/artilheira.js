@@ -2,7 +2,7 @@ const jogadores = [
     {
         cor: '',
         rank: '',
-        nome: 'Jogadora aí',
+        nome: 'Jogadora 1',
         time: 'Time',
         golsFeitos: 0,
         assist: 0,
