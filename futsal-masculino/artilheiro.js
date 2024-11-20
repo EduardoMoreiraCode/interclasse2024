@@ -5,6 +5,7 @@ const jogadores = [
         nome: 'Jogador 1',
         time: 'Time',
         golsFeitos: 0,
+        assist: 0,
     },
     {
         cor: '',
@@ -12,6 +13,7 @@ const jogadores = [
         nome: 'Jogador 2',
         time: 'Time',
         golsFeitos: 0,
+        assist: 0,
     },
     {
         cor: '',
@@ -19,6 +21,7 @@ const jogadores = [
         nome: 'Jogador 3',
         time: 'Time',
         golsFeitos: 0,
+        assist: 0,
     },
 ];
 
@@ -69,6 +72,11 @@ for (const jogador of jogadoresOrd) {
             {
                 novaCell.classList.add("eliminados");
             }
+        }
+        else if(prop === 'assist')
+        {
+            novaCell.textContent = jogador[prop]; //garantir q seja preenchida na tab antes de
+            novaCell.classList.add("sumir"); //colocar a classe .sumir
         }
         else
         {
