@@ -6,6 +6,6 @@ const TM = "Tenis de Mesa";
 const V = "Volei";
 
 function alertOnLoad() {
-    // alert("Nenhuma partida está ocorrendo no momento!");
-    alert(`Está ocorrendo uma partida de ${FM}`);
+    alert("Nenhuma partida está ocorrendo no momento!");
+    // alert(`Está ocorrendo uma partida de ${V}`);
 }
