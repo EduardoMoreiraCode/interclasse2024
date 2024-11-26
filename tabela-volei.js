@@ -97,7 +97,7 @@ const times = [
         rank: '',
         nome: "Computaria",
         pontos: '',
-        jogos: 0,
+        jogos: 1,
         vitorias: 0,
         derrotas: 0,
         setsFavor: 1,
