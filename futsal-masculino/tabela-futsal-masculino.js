@@ -18,7 +18,7 @@ const times1 = [
         saldoGols: '',
         ultimos: [
             "../assets/derrota.svg",
-            "../assets/empate.svg",
+            "../assets/derrota.svg",
             "../assets/empate.svg",
         ],
     },
@@ -79,7 +79,7 @@ const times1 = [
         nome: "Computaria",
         pontos: '',
         jogos: 1,
-        vitorias: 0,
+        vitorias: 1,
         empates: 0,
         derrotas: 1,
         golsFeitos: 9,
@@ -87,7 +87,7 @@ const times1 = [
         saldoGols: '',
         ultimos: [
             "../assets/derrota.svg",
-            "../assets/empate.svg",
+            "../assets/vitoria.svg",
             "../assets/empate.svg",
         ],
     },{
