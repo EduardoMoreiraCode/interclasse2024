@@ -236,9 +236,9 @@ const times2 = [
         jogos: 1,
         vitorias: 0,
         empates: 0,
-        derrotas: 0,
+        derrotas: 1,
         golsFeitos: 0,
-        golsSofridos: -5,
+        golsSofridos: 13,
         saldoGols: '',
         ultimos: [
             "../assets/empate.svg",
@@ -306,7 +306,7 @@ const times2 = [
         vitorias: 1,
         empates: 0,
         derrotas: 0,
-        golsFeitos: 5,
+        golsFeitos: 13,
         golsSofridos: 0,
         saldoGols: '',
         ultimos: [
