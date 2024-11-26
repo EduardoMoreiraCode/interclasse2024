@@ -9,12 +9,12 @@ const times1 = [
         rank: '',
         nome: "DG",
         pontos: '',
-        jogos: 1,
+        jogos: 2,
         vitorias: 0,
         empates: 0,
         derrotas: 0,
         golsFeitos: 1,
-        golsSofridos: 14,
+        golsSofridos: 17,
         saldoGols: '',
         ultimos: [
             "../assets/derrota.svg",
@@ -82,7 +82,7 @@ const times1 = [
         vitorias: 0,
         empates: 0,
         derrotas: 1,
-        golsFeitos: 1,
+        golsFeitos: 4,
         golsSofridos: 6,
         saldoGols: '',
         ultimos: [
