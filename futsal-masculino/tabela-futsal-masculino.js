@@ -14,7 +14,7 @@ const times1 = [
         empates: 0,
         derrotas: 0,
         golsFeitos: 1,
-        golsSofridos: 17,
+        golsSofridos: 22,
         saldoGols: '',
         ultimos: [
             "../assets/derrota.svg",
@@ -82,7 +82,7 @@ const times1 = [
         vitorias: 0,
         empates: 0,
         derrotas: 1,
-        golsFeitos: 4,
+        golsFeitos: 9,
         golsSofridos: 6,
         saldoGols: '',
         ultimos: [
