@@ -123,8 +123,17 @@ const timesOrd = times1.sort((a, b) => { //ORDENACAO POR PONTOS
         {
             const saldoPtsA = a.ptsFeitos - a.ptsSofridos; 
             const saldoPtsB = b.ptsFeitos - b.ptsSofridos;
+            if(saldoPtsA === saldoPtsB)
+            {
+                const pontosA = a.ptsFeitos;
+                const pontosB = b.ptsFeitos;
+
+                return pontosB - pontosA;
+            }
+            else{
+                return saldoPtsB - saldoPtsA;
+            }
             
-            return saldoPtsB - saldoPtsA;
         }
         else
         {
