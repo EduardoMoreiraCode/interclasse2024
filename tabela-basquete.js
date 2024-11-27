@@ -19,10 +19,7 @@ const times1 = [
         saldoPts: '',
         ultimos: [
             "./assets/vitoria.svg",
-            "./assets/derrota.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/derrota.svg",                                    
         ],
     },
     {
@@ -38,10 +35,7 @@ const times1 = [
         saldoPts: '',
         ultimos: [
             "./assets/derrota.svg",
-            "./assets/derrota.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/derrota.svg",                                    
         ],
     },
     {
@@ -57,10 +51,7 @@ const times1 = [
         saldoPts: '',
         ultimos: [
             "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/vitoria.svg",                                    
         ],
     },
     {
@@ -76,10 +67,7 @@ const times1 = [
         saldoPts: '',
         ultimos: [
             "./assets/derrota.svg",
-            "./assets/derrota.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/derrota.svg",                                    
         ],
     },
     {
@@ -95,10 +83,7 @@ const times1 = [
         saldoPts: '',
         ultimos: [
             "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/vitoria.svg",                                    
         ],
     },
 ];
@@ -238,10 +223,7 @@ const times2 = [
         saldoPts: '',
         ultimos: [
             "./assets/vitoria.svg",
-            "./assets/derrota.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/derrota.svg",                                    
         ],
     },
     {
@@ -257,10 +239,7 @@ const times2 = [
         saldoPts: '',
         ultimos: [
             "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/vitoria.svg",                                    
         ],
     },
     {
@@ -276,10 +255,7 @@ const times2 = [
         saldoPts: '',
         ultimos: [
             "./assets/derrota.svg",
-            "./assets/derrota.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/derrota.svg",                                    
         ],
     },
     {
@@ -295,10 +271,7 @@ const times2 = [
         saldoPts: '',
         ultimos: [
             "./assets/derrota.svg",
-            "./assets/derrota.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/derrota.svg",                                    
         ],
     },
     {
@@ -314,10 +287,7 @@ const times2 = [
         saldoPts: '',
         ultimos: [
             "./assets/vitoria.svg",
-            "./assets/vitoria.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg",
-            "./assets/empate.svg"
+            "./assets/vitoria.svg",                                    
         ],
     },
 ];
