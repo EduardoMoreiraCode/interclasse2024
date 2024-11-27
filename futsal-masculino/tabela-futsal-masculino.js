@@ -105,7 +105,7 @@ const times1 = [
         ultimos: [
             "../assets/vitoria.svg",
             "../assets/empate.svg",
-            "../assets/empate.svg",
+            "../assets/vitoria.svg",
         ],
     }
 ];
@@ -327,7 +327,7 @@ const times2 = [
         golsSofridos: 6,
         saldoGols: '',
         ultimos: [
-            "../assets/empate.svg",
+            "../assets/vitoria.svg",
             "../assets/derrota.svg",
             "../assets/empate.svg",
         ],
