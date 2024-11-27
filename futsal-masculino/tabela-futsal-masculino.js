@@ -62,7 +62,7 @@ const times1 = [
         nome: "NGA FC",
         pontos: '',
         jogos: 3,
-        vitorias: 0,
+        vitorias: 1,
         empates: 1,
         derrotas: 1,
         golsFeitos: 7,
@@ -71,7 +71,7 @@ const times1 = [
         ultimos: [
             "../assets/derrota.svg",
             "../assets/empate.svg",
-            "../assets/empate.svg",
+            "../assets/vitoria.svg",
         ],
     },{
         cor: "",
@@ -81,14 +81,14 @@ const times1 = [
         jogos: 3,
         vitorias: 1,
         empates: 0,
-        derrotas: 1,
+        derrotas: 2,
         golsFeitos: 10,
         golsSofridos: 9,
         saldoGols: '',
         ultimos: [
             "../assets/derrota.svg",
             "../assets/vitoria.svg",
-            "../assets/empate.svg",
+            "../assets/derrota.svg",
         ],
     },{
         cor: "",
