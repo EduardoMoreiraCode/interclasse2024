@@ -233,8 +233,8 @@ const times2 = [
         vitorias: 2,
         derrotas: 0,
         vitPercentual: '',
-        ptsFeitos: 18,
-        ptsSofridos: 9,
+        ptsFeitos: 20,
+        ptsSofridos: 14,
         saldoPts: '',
         ultimos: [
             "./assets/vitoria.svg",
@@ -252,8 +252,8 @@ const times2 = [
         vitorias: 1,
         derrotas: 1,
         vitPercentual: '',
-        ptsFeitos: 27,
-        ptsSofridos: 4,
+        ptsFeitos: 32,
+        ptsSofridos: 6,
         saldoPts: '',
         ultimos: [
             "./assets/vitoria.svg",
