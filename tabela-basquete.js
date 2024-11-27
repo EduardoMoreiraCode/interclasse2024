@@ -295,7 +295,7 @@ const times2 = [
         saldoPts: '',
         ultimos: [
             "./assets/derrota.svg",
-            "./assets/empate.svg",
+            "./assets/derrota.svg",
             "./assets/empate.svg",
             "./assets/empate.svg",
             "./assets/empate.svg"
