@@ -31,8 +31,8 @@ const times1 = [
         vitorias: 1,
         empates: 1,
         derrotas: 0,
-        golsFeitos: 17,
-        golsSofridos: 4,
+        golsFeitos: 18,
+        golsSofridos: 6,
         saldoGols: '',
         ultimos: [
             "../assets/vitoria.svg",
@@ -48,8 +48,8 @@ const times1 = [
         vitorias: 1,
         empates: 1,
         derrotas: 0,
-        golsFeitos: 8,
-        golsSofridos: 3,
+        golsFeitos: 10,
+        golsSofridos: 4,
         saldoGols: '',
         ultimos: [
             "../assets/vitoria.svg",
