@@ -7,5 +7,5 @@ const V = "Volei";
 
 function alertOnLoad() {
     // alert("Nenhuma partida está ocorrendo no momento!");
-    alert(`Está ocorrendo uma partida de ${FM}`);
+    alert(`Está ocorrendo uma partida de ${B}`);
 }
