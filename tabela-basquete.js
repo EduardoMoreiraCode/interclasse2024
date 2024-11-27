@@ -313,7 +313,7 @@ const times2 = [
         ptsSofridos: 6,
         saldoPts: '',
         ultimos: [
-            "./assets/empate.svg",
+            "./assets/vitoria.svg",
             "./assets/empate.svg",
             "./assets/empate.svg",
             "./assets/empate.svg",
