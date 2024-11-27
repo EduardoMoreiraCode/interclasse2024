@@ -252,7 +252,7 @@ const times2 = [
         vitorias: 0,
         derrotas: 0,
         vitPercentual: '',
-        ptsFeitos: 0,
+        ptsFeitos: 24,
         ptsSofridos: 0,
         saldoPts: '',
         ultimos: [
@@ -291,7 +291,7 @@ const times2 = [
         derrotas: 1,
         vitPercentual: '',
         ptsFeitos: 6,
-        ptsSofridos: 13,
+        ptsSofridos: 37,
         saldoPts: '',
         ultimos: [
             "./assets/empate.svg",
