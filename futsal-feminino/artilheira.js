@@ -5,7 +5,7 @@ const jogadores = [
         nome: 'Rafa',
         time: 'Milantronicas',
         golsFeitos: 4,
-        assist: 0,
+        // assist: 0,
         
     },
     {
@@ -14,7 +14,7 @@ const jogadores = [
         nome: 'Gabi',
         time: 'Mecsteel',
         golsFeitos: 2,
-        assist: 0,
+        // assist: 0,
     },
     {
         cor: '',
@@ -22,7 +22,7 @@ const jogadores = [
         nome: 'Baumann',
         time: 'Eletro Girls',
         golsFeitos: 2,
-        assist: 0,
+        // assist: 0,
     },
 ];
 
