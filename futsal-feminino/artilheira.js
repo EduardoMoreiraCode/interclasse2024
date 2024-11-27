@@ -3,7 +3,7 @@ const jogadores = [
         cor: '',
         rank: '',
         nome: 'Rafa',
-        time: 'Milantronicos',
+        time: 'Milantronicas',
         golsFeitos: 4,
         assist: 0,
         
