@@ -327,9 +327,9 @@ const times2 = [
         golsSofridos: 6,
         saldoGols: '',
         ultimos: [
-            "../assets/vitoria.svg",
-            "../assets/derrota.svg",
             "../assets/empate.svg",
+            "../assets/derrota.svg",
+            "../assets/vitoria.svg",
         ],
     }
 ];
