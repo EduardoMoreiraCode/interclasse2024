@@ -252,7 +252,7 @@ const times2 = [
         nome: "Pretônicos",
         pontos: '',
         jogos: 3,
-        vitorias: 2,
+        vitorias: 3,
         empates: 0,
         derrotas: 0,
         golsFeitos: 13,
@@ -261,7 +261,7 @@ const times2 = [
         ultimos: [
             "../assets/vitoria.svg",
             "../assets/vitoria.svg",
-            "../assets/empate.svg",
+            "../assets/vitoria.svg",
         ],
     },{
         cor: "",
@@ -271,14 +271,14 @@ const times2 = [
         jogos: 3,
         vitorias: 1,
         empates: 1,
-        derrotas: 0,
+        derrotas: 1,
         golsFeitos: 6,
         golsSofridos: 5,
         saldoGols: '',
         ultimos: [
             "../assets/empate.svg",
             "../assets/vitoria.svg",
-            "../assets/empate.svg",
+            "../assets/derrota.svg",
         ],
     },{
         cor: "",
