@@ -2,8 +2,8 @@ const jogadores = [
     {
         cor: '',
         rank: '',
-        nome: 'Rafa',
-        time: 'Milantronicas',
+        nome: 'Baumann',
+        time: 'Eletro Girls',
         golsFeitos: 4,
         // assist: 0,
         
@@ -12,16 +12,16 @@ const jogadores = [
         cor: '',
         rank: '',
         nome: 'Gabi',
-        time: 'Mecsteel',
+        time: 'MecSteel',
         golsFeitos: 3,
         // assist: 0,
     },
     {
         cor: '',
         rank: '',
-        nome: 'Baumann',
-        time: 'Eletro Girls',
-        golsFeitos: 2,
+        nome: 'Rafa',
+        time: 'Milantrônicas',
+        golsFeitos: 4,
         // assist: 0,
     },
 ];
