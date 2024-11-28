@@ -354,7 +354,7 @@ const times2 = [
         setsFavor: 1,
         setsContra: 2,
         saldoSets: '',
-        ptsFeitos: 25,
+        ptsFeitos: 44,
         ptsSofridos: 39,
         saldoPts: '',
         // ultimos: [
