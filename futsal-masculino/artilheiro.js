@@ -20,7 +20,7 @@ const jogadores = [
         rank: '',
         nome: 'Giovanni',
         time: 'Tikaplaus',
-        golsFeitos: 6,
+        golsFeitos: 7,
         // assist: 0,
     },
 ];
