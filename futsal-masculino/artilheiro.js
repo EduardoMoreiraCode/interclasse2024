@@ -2,9 +2,9 @@ const jogadores = [
     {
         cor: '',
         rank: '',
-        nome: 'Deivão',
-        time: 'BD7',
-        golsFeitos: 7,
+        nome: 'Kallensq',
+        time: 'NGA',
+        golsFeitos: 11,
         // assist: 0,
     },
     {
@@ -12,7 +12,7 @@ const jogadores = [
         rank: '',
         nome: 'Du',
         time: 'BD7',
-        golsFeitos: 7,
+        golsFeitos: 10,
         // assist: 0,
     },
     {
@@ -20,7 +20,7 @@ const jogadores = [
         rank: '',
         nome: 'Giovanni',
         time: 'Tikaplaus',
-        golsFeitos: 7,
+        golsFeitos: 9,
         // assist: 0,
     },
 ];
