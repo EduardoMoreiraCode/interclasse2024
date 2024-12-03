@@ -4,7 +4,7 @@ const jogadores = [
         rank: '',
         nome: 'Kallensq',
         time: 'NGA',
-        golsFeitos: 11,
+        golsFeitos: 12,
         // assist: 0,
     },
     {
@@ -12,7 +12,7 @@ const jogadores = [
         rank: '',
         nome: 'Du',
         time: 'BD7',
-        golsFeitos: 10,
+        golsFeitos: 13,
         // assist: 0,
     },
     {
@@ -20,7 +20,7 @@ const jogadores = [
         rank: '',
         nome: 'Giovanni',
         time: 'Tikaplaus',
-        golsFeitos: 9,
+        golsFeitos: 10,
         // assist: 0,
     },
 ];

@@ -13,7 +13,7 @@ const jogadores = [
         rank: '',
         nome: 'Gabi',
         time: 'MecSteel',
-        golsFeitos: 3,
+        golsFeitos: 4,
         // assist: 0,
     },
     {
